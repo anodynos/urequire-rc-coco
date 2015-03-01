@@ -1,7 +1,7 @@
 {
   "name": "urequire-rc-coco",
-  "description": "uRequire ResourceConverter for 'coco'. See http://urequire.org/resourceconverters.coffee#the-alternative-less-verbose-array-way",
-  "version": "0.1.0",
+  "description": "uRequire RC for 'coco'. See http://urequire.org/resourceconverters.coffee#the-alternative-less-verbose-array-way",
+  "version": "0.1.1",
   "homepage": "http://uRequire.org",
   "author": {
     "name": "Agelos Pikoulas",
@@ -40,6 +40,9 @@
   "engines": {
     "node": "0.10.x"
   },
+  "peerDependencies": {
+    "urequire": "~0.7.0.beta.14"
+  },  
   "dependencies": {
     "coco": "*"
   }
